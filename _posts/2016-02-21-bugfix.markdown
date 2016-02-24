@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "Bugfix"
+date:   2016-02-21 08:30:50
+categories: homework blog
+---
+
+For this assignment, I was tasked with fixing a bug in a FOSS project.
+
+
+### Project Selection 
+
+To make environment setup easier, I decided to pick a project of which I was
+already familiar. 
+
+Noticing that the was several bugs recently opened up in the website for RIT's
+Society of Software Engineers, I decided I would try tackling one of them.
+
+The website is composed of several projects on Github. For this assignment I
+choose to work on an issue from the
+[scoreboard project](https://github.com/rit-sse/scoreboard-2.0)
+which is a tool to helpkeep track of who has membership in the organization. 
+
+### Bug Selection
+
+This project keeps track of it's bugs through Github issues. I decided to work
+on a small issue which involved a column in a table not sorting correctly.
+
+Since I knew the owner of the repository, I was able to get myself added to the
+project which allowed me to directly assign the issue to myself. This way,
+other contributors could see I was working on it and we could avoid duplication
+of effort.
+
+### Fixing the Bug
+
+Since I was added to the project, I was able to create my own branch to work
+off of instead of having to fork the project. Following the instructions in the
+readme for the repository, I was able to setup my developer environment with no
+real trouble. 
+
+I was able to fix the problem in less than an hour. I promptly commited and 
+pushed my code.
+
+I then created a
+[pull request](https://github.com/rit-sse/scoreboard-2.0/pull/31)
+to merge my branch into the main development branch.
+
+Unfortunately, my pull requuest was not merged in right away as there was a
+problem. A continuos integration (CI) server checks to make sure that any code
+submitted in a pull request build properly and that server was having issues
+unrelated to my pull request.
