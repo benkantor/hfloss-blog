@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Quiz 1"
+date:   2016-03-04 09:00:00
+categories: quiz blog
+---
+
+1. The name of the verison control system we use for this course is `git`.
+   
+   Other VCS: `subversion`, `perforce`, `cvs`
+
+2. The forge used in this course is `Github`.
+
+3.
+
+```
+    A. Andrew Tannenbaum       d) Minix
+
+    B) Linus Torvalds          c) Linux
+
+    C) Bruce Perens            a) Debian Free Software Guidelines
+
+    D) Richard Stallman        b) Free Software Foundation/Gnu Project
+```
+
+4.
+
+```
+    A) trademark     b) lasts as long as used & defended
+    B) copyright     c) life of the author plus 70 years
+    C) patent        a) 20 year term
+
+    D) trademark     f) protects consumers from confusing one product with another
+    E) copyright     d) arises as soon as a work takes tangible form
+    F) patent        e) precedence is given to the first to file an application
+```
+
+5.
+
+```
+    1. Reuse
+    2. Redistribute
+    3. Revise
+    4. Remix
+```                      
