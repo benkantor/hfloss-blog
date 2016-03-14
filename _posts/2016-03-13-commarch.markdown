@@ -1,0 +1,155 @@
+---
+layout: post
+title:  "Systemd Commarch Report"
+date:   2016-03-13 20:30:00
+categories: blog
+---
+
+**Project Links**
+
+* The project's IRC Channel
+* Source Code repository
+* Mail list archive
+* Documentation 
+* Other communication channels
+* Project Website and/or Blog
+
+**A. Describe software project, its purpose and goals.**
+
+systemd is a system management daemon that originally aimed to replace
+traditional System V style initialization (“init”) systems. Since achieving
+that original goal, it has expanded to take on other roles throughout the
+system, such as session management and being the primary Linux cgroup tracker.
+The project leaders make it clear that systemd is intended to be used
+exclusively on Linux and therefore does not make any attempt at portability to
+other POSIX or Unix-like systems (such as FreeBSD).
+
+**B. Give brief history of the project. When was the Initial Commit? The latest
+commit?**
+
+There are three initial commits for the systemd project:
+
+    6091827530d6dd43479d6709fb6e9f745c11e900
+    Lennart Poettering <lennart@poettering.net> on 11/18/09
+    6b21f0cf45ea2a8cd5926393a4c056b3a716c8af
+    lennart <lennart@[...]> on 11/19/05
+    f0083e3d4eb49e11fd7e37532dc64a6e6f5d4039
+    Greg KH <greg@press.(none)> on 04/19/05
+
+Most recent commit:
+
+    ed0b16e2792e2e7cd6591da053ef5f737736a98d
+    Ronny Chevalier <chevalier.ronny@gmail.com> on 03/12/16
+    Merged PR #2828
+
+**C. Who approves patches? How many people?**
+
+Anyone in the Github Organaization for systemd could apporve patchest to the
+project. There are 15 people in the Github Organization, however only about 5
+of them regularly review and approve patches.
+
+**D. Who has commit access, or has had patches accepted? How many total?**
+
+The only people with direct push access to the repository are the 15
+afformentioned pepole in the Github Organization for the project.
+
+There has been 775 unique contributors whos patches have been accepted.
+
+**E. Who has the highest amounts of "Unique Knowledge?" (As per your
+"Git-by-a-bus" report. If there is a tie, list each contributor, with links if
+possible)**
+
+We were unable to use git-by-a-bus for this project as it was too big.
+
+Git-by-a-truck reported that Lennart Poettering had the highest amount of
+"unique knowledge", which would make sense as he the most number of commits
+for the project, coming in at 9,188. (~6,000 more than the next highest
+contibutor)
+
+**F. What is your project's "Callaway’s Coefficient of Fail?"**
+
+Systemd scored a perfect 0 on Callaway’s Coefficient of Fail.
+
+This can be attributed to the large userbase of systemd, the large and active
+development community of systemd, and the incredibly vast amount of
+documentation and communication resources which have been critical to the
+ability of systemd to survive for this long.
+
+**G. Has there been any turnover in the Core Team? (i.e. has the same top 20%
+of contributors stayed the same over time? If not, how has it changed?)**
+
+The top contributors have mostly stayed the same throughout the life of the
+project so far.
+
+**H. Does the project have a BDFL, or Lead Developer? (BDFL == Benevolent
+Dictator for Life)**
+
+Lennart Poettering and Kay Sievers are the clear Benevolent Dicatators for
+life. Besides having an absurdly large number of contributions, they generally
+have final say on the overall direction and development of the project.
+
+**I. Are the front and back end developers the same people? What is the
+proportion of each? **
+
+systemd does not have frontends and backends in the traditional sense of the word. The closest frontend would be the set of command line interface utilities that interact with the daemon itself. In this case, the frontend and backend are built by the same group of engineers.
+
+**J. What have been some of the major bugs/problems/issues that have arisen
+during development? Who is responsible for quality control and bug repair?**
+
+**K. How is the project's participation trending and why?**
+
+The project's participation has been a steady growth since its start in 2003,
+and can best be explained by the vast increase in scope since its inception
+as well as the variability in its use across a large number of platforms.
+
+**L. In your opinion, does the project pass "The Raptor Test?" (i.e. Would the
+project survive if the BDFL, or most active contributor were eaten by a
+Velociraptor?) Why or why not?**
+
+If one of the two BDFLs was eaten by a velociraptor the project would most
+likely survive as both have incredibly large amounts of knowledge of the
+project and have a shared vision for its direction. If both of the BDFLs
+were eaten by a velociraptor, the project would also still survive due to 
+the amount of other large contibutors to the project. The vision for the
+direction of the project would most likely remain intact because if the 
+other main developers didn't believe in the vision for the project, they would
+have most likey left a long time ago.
+
+**M. In your opinion, would the project survive if the core team, or most
+active 20% of contributors, were hit by a bus? Why or why not?**
+
+If the entire core team of developers were to get hit by a bus, the project
+would most likely still survive. There are so many crucial systems that rely
+on systemd that it is almost certain that a group of people would step in to
+take over the project. systemd is so well documented that the new maintainers
+would be able to figure out the project realtively quickly. However, in order
+for the project to survive, whoever took over the project would need the
+support of the rest of the systemd community as a conflicting vision of the
+direction of the project could cause conflict in the community.
+
+If 20% of the most active contributors were hit by a bus, 155 people would die
+and would be an international tragedy.
+
+**N. Does the project have an official "on-boarding" process in place? (new
+contributor guides, quickstarts, communication leads who focus specifically on
+newbies, etc...)**
+
+**O. Does the project have Documentation available? Is it extensive?
+        Does it include code examples?**
+
+There is extensive documentation for systemd in both text and video form. 
+
+**P. If you were going to contribute to this project, but ran into trouble or
+hit blockers, who would you contact, and how?**
+#systemd on IRC
+
+**Q. Based on these answers, how would you describe the decision making
+structure/process of this group? Is it hierarchical, consensus building, ruled
+by a small group, barely contained chaos, or ruled by a single or pair of
+individuals?**
+
+
+ruled by a small group
+
+**R. Is this the kind of structure you would enjoy working in? Why, or why
+not?**
