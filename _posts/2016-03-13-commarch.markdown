@@ -7,12 +7,14 @@ categories: blog
 
 **Project Links**
 
-* The project's IRC Channel
-* Source Code repository
-* Mail list archive
-* Documentation 
-* Other communication channels
-* Project Website and/or Blog
+* [The project's IRC Channel][irc]
+* [Source Code repository][repo]
+* Mailing Lists
+    * [General Development and Technical Discussion][gen_mail]
+    * [Commits][commits_mail]
+* [Documentation][documentation] 
+* [Google+][google+]
+* [Project Website and/or Blog][website]
 
 **A. Describe software project, its purpose and goals.**
 
@@ -91,7 +93,8 @@ have final say on the overall direction and development of the project.
 **I. Are the front and back end developers the same people? What is the
 proportion of each? **
 
-systemd does not have frontends and backends in the traditional sense of the word. The closest frontend would be the set of command line interface utilities that interact with the daemon itself. In this case, the frontend and backend are built by the same group of engineers.
+systemd doesn't really have front and back ends. Everyone contributes to all
+submodules of the project.
 
 **J. What have been some of the major bugs/problems/issues that have arisen
 during development? Who is responsible for quality control and bug repair?**
@@ -134,6 +137,10 @@ and would be an international tragedy.
 contributor guides, quickstarts, communication leads who focus specifically on
 newbies, etc...)**
 
+The project has a contributors guide which can be found on Github. There is no
+clear communication lead, but the IRC channel is very responsive to people who
+are interested in the project.
+
 **O. Does the project have Documentation available? Is it extensive?
         Does it include code examples?**
 
@@ -141,15 +148,27 @@ There is extensive documentation for systemd in both text and video form.
 
 **P. If you were going to contribute to this project, but ran into trouble or
 hit blockers, who would you contact, and how?**
-#systemd on IRC
+
+If I ran into trouble or hit blockers, I would either ask a question in IRC or
+I would post to the mailing list with a detailed description of the problem.
 
 **Q. Based on these answers, how would you describe the decision making
 structure/process of this group? Is it hierarchical, consensus building, ruled
 by a small group, barely contained chaos, or ruled by a single or pair of
 individuals?**
 
-
-ruled by a small group
+The decisions making is mostly done by a small group of the main core
+contributors.
 
 **R. Is this the kind of structure you would enjoy working in? Why, or why
 not?**
+
+Yes, because the community is very responsive and has a clear plan.
+
+[irc]: irc.freenode.org (#systemd)
+[repo]: https://github.com/systemd/systemd/issues
+[gen_mail]: http://lists.freedesktop.org/mailman/listinfo/systemd-devel
+[commits_mail]: http://lists.freedesktop.org/mailman/listinfo/systemd-commits
+[documentation]: https://www.freedesktop.org/wiki/Software/systemd/
+[website]: https://www.freedesktop.org/wiki/Software/systemd/
+[google+]: https://plus.google.com/104232583922197692623
