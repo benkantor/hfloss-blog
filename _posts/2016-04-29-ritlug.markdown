@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "RITLUG PGP/GPG"
+date:   2016-04-29 20:30:00
+categories: meetup
+---
+
+Today I atteneded a meeting of the RIT Linux Users Group (RITLUG). This week,
+they had a presentation on the use of gpg/pgp which went over some fundamentals
+of key based encryption, how to setup a pgp key, and even some best practices.
+
+After the presentation there was time for a open discussion and hangout. One
+interesting topic being discussed was how to verify someone's identity during a
+key signing party. Particularly, an argument was presented that it could be
+unfair to require someone to show you their license before you sign thier key,
+as it creates an unnecessary barrier to entry for people who may not have one.
+A high schooler for example may be more likley to not have a good form of physical identification.
+
+Services like [keybase.io][keybase] offer a solution to this problem as users verify their
+identity by linking their social media accounts. Although, it would be
+interesting to see a service like keybase incorporated into an in-person key
+siging event.
+
+[keybase]: https://keybase.io/
